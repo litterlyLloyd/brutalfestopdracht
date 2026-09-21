@@ -1,0 +1,107 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+    background-color: #e8e4d9;
+    color: #0a0a0a;
+    font-family: monospace;
+    line-height: 1.5;
+    margin: 0
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.card {
+    padding: 1rem;
+}
+
+.card b {
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+header h1 {
+    color: #ff3b00;
+}
+nav {
+    background-color: #ff3b00;
+    border: 3px solid #0a0a0a;
+}
+
+nav a {
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+section {
+    border: 2px solid #0a0a0a;
+    box-shadow: 8px 8px 0 #0a0a0a;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0a0a0a;
+    color: #fff;
+    border: 3px solid #0a0a0a;
+}
+
+td {
+    border: 3px solid #0a0a0a;
+}
+
+button {
+    background-color: #ff3b00;
+    color: #0a0a0a;
+    border: 3px solid #0a0a0a;
+    box-shadow: 8px 8px 0 #0a0a0a;
+    font-family: monospace;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid #0a0a0a;
+    padding: 1rem;
+}
+img {
+width: 20rem;
+height: auto;
+border: 3px solid #0a0a0a;
+}
+
+a {
+    color: #0047ff;
+}
+
+mark {
+    background-color: #ff3b00;
+    color: #0a0a0a;
+}
+
+
+footer {
+    background-color: #0a0a0a;
+    color: #fff;
+    border: 3px solid #0a0a0a;
+    line-height: 1.5;
+}
